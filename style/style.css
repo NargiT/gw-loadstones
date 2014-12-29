@@ -1,0 +1,70 @@
+body {
+    font-family: verdana,helvetica,arial,sans-serif;
+}
+
+header, footer {
+    width: 100%;
+}
+
+#content {
+    margin: auto;
+}
+
+.mytable  {
+    margin: 2px;
+    margin-bottom:10px;
+}
+
+
+.mytable thead * td
+{
+    padding:4px;
+    background-color:black;
+    color:white;
+}
+
+.mytable td
+{
+    border-bottom: 1px dashed black;
+}
+.mytable tbody tr:hover
+{
+    background-color:darkorange;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.flottant {
+    width: 49%;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #0A0A0A;
+}
+
+.alignleft {
+    text-align: left;
+
+}
+.alignright {
+    text-align: right;
+}
+.aligncenter {
+    text-align:center;
+}
+
+.floatleft {
+    float:left;
+}
